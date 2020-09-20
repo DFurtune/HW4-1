@@ -1,0 +1,188 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+      90deg,
+      rgba(213, 32, 71, 0.8) 0%,
+      rgba(238, 61, 27, 0.8) 100%
+    ),
+    url("img/BG.jpg");
+
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+}
+.head {
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 10px 100px 0px 100px;
+}
+
+select {
+  -webkit-appearance: none;
+}
+.cloud-logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125em;
+  line-height: 1.375em;
+  text-align: center;
+  align-items: center;
+}
+
+.logo-img {
+  padding-right: 0.625em;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navigation-list {
+  justify-content: space-between;
+}
+
+.navigation-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875em;
+  line-height: 1.0625em;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  outline: none;
+}
+
+.cloud-language {
+  align-items: center;
+}
+.language {
+  border: none;
+  background: none;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875em;
+  line-height: 1.0625em;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.navigation-button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875em;
+  line-height: 1.0625em;
+  display: inline;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+}
+
+.navigation-button:hover {
+  transform: scale(1.1);
+}
+
+.button-login {
+  padding: 12px 28px;
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.block {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+  text-transform: uppercase;
+}
+.text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  white-space: pre-line;
+}
+
+.block-button {
+  border: 1px solid rgb(255, 255, 255);
+  width: 160px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 50px;
+  transition-duration: 1s;
+}
+
+.block-button:hover {
+  background-color: rgb(236, 204, 204);
+  border: 1px solid rgb(236, 204, 204);
+  transform: translateY(-10px);
+}
+
+.sign-up {
+  padding: 17px 28px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875em;
+  line-height: 1.0625em;
+  text-transform: uppercase;
+  color: #ed4c5c;
+  text-decoration: none;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .cloud-header-flex {
+    display: inline-block;
+  }
+
+  .cloud-lang,
+  .cloud-logo {
+    display: flex;
+  }
+  .heading {
+    font-size: 38px;
+  }
+  .cloud-text {
+    font-size: 16px;
+  }
+
+  .site-header {
+    padding: 0;
+    margin: 0;
+  }
+
+  .cloud-block {
+    margin-top: 50px;
+  }
+
+  .cloud-block-btn {
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+  }
+
+  .btn-sign-up {
+    padding: 10px 20px;
+  }
+
+  .cloud-navigation-link {
+    font-size: 0.75em;
+    padding: 7px;
+  }
+
+  .container {
+    text-align: center;
+  }
+}
