@@ -6,7 +6,7 @@ body {
       rgba(213, 32, 71, 0.8) 0%,
       rgba(238, 61, 27, 0.8) 100%
     ),
-    url("img/BG.jpg");
+    url("../img/BG.jpg");
 
   background-size: cover;
 }
